@@ -48,7 +48,7 @@ console.log(`Sweden Index: ${SwedenIndex}`);
 
 // challenge1=========================
 console.log('challenge 1 =============');
-let usIndex = 0;
+
 
 // compare two values
 console.log(ukIndex < SwissIndex);
@@ -60,6 +60,7 @@ console.log(SwedenIndex < SwissIndex);
 
 // challenge2====================
 console.log('challenge 2 =============');
+let usIndex = 0;
 
 if(usIndex < ukIndex){
     console.log(`Us Dollar is undervalued`);
