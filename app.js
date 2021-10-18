@@ -51,11 +51,35 @@ console.log('challenge 1 =============');
 
 
 // compare two values
+// UK vs Others
 console.log(ukIndex < SwissIndex);
+console.log(ukIndex < FranceIndex);
+console.log(ukIndex < SwedenIndex);
+console.log(ukIndex < SouthAfricaIndex);
+
+// Swiss vs Others
+console.log(SwissIndex < SouthAfricaIndex);
 console.log(SwissIndex < FranceIndex);
-console.log(SouthAfricaIndex < SwissIndex);
-console.log(FranceIndex < SwedenIndex);
+console.log(SwissIndex < SwedenIndex);
+console.log(SwissIndex < ukIndex);
+
+// Sweden vs Others
 console.log(SwedenIndex < SwissIndex);
+console.log(SwedenIndex < FranceIndex);
+console.log(SwedenIndex < ukIndex);
+console.log(SwedenIndex < SouthAfricaIndex);
+
+// France vs Others
+console.log(FranceIndex < SwissIndex);
+console.log(FranceIndex < SwedenIndex);
+console.log(FranceIndex < ukIndex);
+console.log(FranceIndex < SouthAfricaIndex);
+
+// South Africa vs Others
+console.log(SouthAfricaIndex < SwissIndex);
+console.log(SouthAfricaIndex < SwedenIndex);
+console.log(SouthAfricaIndex < ukIndex);
+console.log(SouthAfricaIndex < FranceIndex);
 
 
 // challenge2====================
