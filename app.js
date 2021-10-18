@@ -1,9 +1,9 @@
-let UsBigMac = 5.65;
-let UkBigMac = 3.49;
-let SwissBigMac = 12.900;
-let SouthAfricaBigMac = 33.50;
-let FranceBigMac = 5.16;
-let SwedenBigMac = 52;
+const UsBigMac = 5.65;
+const UkBigMac = 3.49;
+const SwissBigMac = 12.900;
+const SouthAfricaBigMac = 33.50;
+const FranceBigMac = 5.16;
+const SwedenBigMac = 52;
 
 let UkIpp = UsBigMac / UkBigMac;
 let SwissIpp = UsBigMac/ SwissBigMac;
@@ -11,11 +11,11 @@ let SouthAfricaIpp = UsBigMac / SouthAfricaBigMac;
 let FranceIpp = UsBigMac/ FranceBigMac;
 let SwedenIpp = UsBigMac/ SwedenBigMac;
 
-let UkCurr = 1.37;
-let SwissCurr = 1.08;
-let SouthAfricaCurr = 0.68;
-let FranceCurr = 1.16;
-let swedenCurr = 0.12;
+const UkCurr = 1.37;
+const SwissCurr = 1.08;
+const SouthAfricaCurr = 0.68;
+const FranceCurr = 1.16;
+const swedenCurr = 0.12;
 
 
 console.log(`UkIpp: ${UkIpp}`);
