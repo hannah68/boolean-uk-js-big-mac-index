@@ -62,32 +62,32 @@ console.log(SwedenIndex < SwissIndex);
 console.log('challenge 2 =============');
 
 if(usIndex < ukIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`pound is undervalued`);
 }
 
 
 if(usIndex < SwissIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`franc is undervalued`);
 }
 
 if(usIndex < SouthAfricaIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`Zar is undervalued`);
 }
 
 if(usIndex < FranceIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`Euro is undervalued`);
 }
 
 if(usIndex < SwedenIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`Krona is undervalued`);
 }
