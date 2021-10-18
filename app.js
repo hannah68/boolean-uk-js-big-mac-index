@@ -33,22 +33,33 @@ let SouthAfricaIndex = (((SouthAfricaCurr - SouthAfricaIpp)/ SouthAfricaIpp) * 1
 let FranceIndex = (((FranceCurr - FranceIpp)/ FranceIpp) * 100).toFixed(2);
 let SwedenIndex = (((swedenCurr - SwedenIpp)/ SwedenIpp) * 100).toFixed(2);
 
-console.log(`uk Index : ${ukIndex}`);
-console.log(`swiss Index : ${SwissIndex}`);
-console.log(`south africa Index: ${SouthAfricaIndex}`);
-console.log(`France Index : ${FranceIndex}`);
-console.log(`Sweden Index: ${SwedenIndex}`);
 
+console.log(`uk Index : ${ukIndex}`); 
+// uk Index : -15.38
+console.log(`swiss Index : ${SwissIndex}`);
+// swiss Index : 146.58
+console.log(`south africa Index: ${SouthAfricaIndex}`);
+// south africa Index: 303.19
+console.log(`France Index : ${FranceIndex}`);
+// France Index : 5.94
+console.log(`Sweden Index: ${SwedenIndex}`);
+// Sweden Index: 10.44
+
+
+// challenge1=========================
 console.log('challenge 1 =============');
 let usIndex = 0;
 
 // compare two values
-console.log(ukIndex < usIndex);
-console.log(SwissIndex < usIndex);
-console.log(SouthAfricaIndex < usIndex);
-console.log(FranceIndex < usIndex);
-console.log(SwedenIndex < usIndex);
+console.log(ukIndex < SwissIndex);
+console.log(SwissIndex < FranceIndex);
+console.log(SouthAfricaIndex < SwissIndex);
+console.log(FranceIndex < SwedenIndex);
+console.log(SwedenIndex < SwissIndex);
 
+
+// challenge2====================
+console.log('challenge 2 =============');
 
 if(usIndex < ukIndex){
     console.log(`Us is undervalued`);
