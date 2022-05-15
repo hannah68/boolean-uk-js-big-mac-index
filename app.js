@@ -48,46 +48,71 @@ console.log(`Sweden Index: ${SwedenIndex}`);
 
 // challenge1=========================
 console.log('challenge 1 =============');
-let usIndex = 0;
+
 
 // compare two values
+// UK vs Others
 console.log(ukIndex < SwissIndex);
+console.log(ukIndex < FranceIndex);
+console.log(ukIndex < SwedenIndex);
+console.log(ukIndex < SouthAfricaIndex);
+
+// Swiss vs Others
+console.log(SwissIndex < SouthAfricaIndex);
 console.log(SwissIndex < FranceIndex);
-console.log(SouthAfricaIndex < SwissIndex);
-console.log(FranceIndex < SwedenIndex);
+console.log(SwissIndex < SwedenIndex);
+console.log(SwissIndex < ukIndex);
+
+// Sweden vs Others
 console.log(SwedenIndex < SwissIndex);
+console.log(SwedenIndex < FranceIndex);
+console.log(SwedenIndex < ukIndex);
+console.log(SwedenIndex < SouthAfricaIndex);
+
+// France vs Others
+console.log(FranceIndex < SwissIndex);
+console.log(FranceIndex < SwedenIndex);
+console.log(FranceIndex < ukIndex);
+console.log(FranceIndex < SouthAfricaIndex);
+
+// South Africa vs Others
+console.log(SouthAfricaIndex < SwissIndex);
+console.log(SouthAfricaIndex < SwedenIndex);
+console.log(SouthAfricaIndex < ukIndex);
+console.log(SouthAfricaIndex < FranceIndex);
 
 
 // challenge2====================
 console.log('challenge 2 =============');
+let usIndex = 0;
 
 if(usIndex < ukIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`pound is undervalued`);
 }
 
 
 if(usIndex < SwissIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`franc is undervalued`);
 }
 
 if(usIndex < SouthAfricaIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`Zar is undervalued`);
 }
 
 if(usIndex < FranceIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`Euro is undervalued`);
 }
 
 if(usIndex < SwedenIndex){
-    console.log(`Us is undervalued`);
+    console.log(`Us Dollar is undervalued`);
 }else{
     console.log(`Krona is undervalued`);
 }
